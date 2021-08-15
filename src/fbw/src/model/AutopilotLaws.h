@@ -109,7 +109,6 @@ class AutopilotLawsModelClass {
     real_T ScheduledGain_BreakpointsForDimension1_j[3];
     real_T ScheduledGain_BreakpointsForDimension1_a[7];
     real_T ScheduledGain_BreakpointsForDimension1_d[7];
-    real_T ScheduledGain2_BreakpointsForDimension1_k[7];
     real_T ScheduledGain_BreakpointsForDimension1_e[5];
     real_T ScheduledGain2_BreakpointsForDimension1_j[7];
     real_T ScheduledGain_BreakpointsForDimension1_h[6];
@@ -150,7 +149,6 @@ class AutopilotLawsModelClass {
     real_T ScheduledGain_Table_p[3];
     real_T ScheduledGain_Table_i[7];
     real_T ScheduledGain_Table_h[7];
-    real_T ScheduledGain2_Table_g[7];
     real_T ScheduledGain_Table_pf[5];
     real_T ScheduledGain2_Table_h[7];
     real_T ScheduledGain_Table_ir[6];
@@ -183,19 +181,18 @@ class AutopilotLawsModelClass {
     real_T Gain_Gain_a;
     real_T Constant1_Value;
     real_T Gain2_Gain;
-    real_T Gain_Gain_n;
+    real_T Gain_Gain_c;
     real_T Saturation_UpperSat;
     real_T Saturation_LowerSat;
-    real_T Gain1_Gain_n;
     real_T Constant3_Value;
     real_T beta_Value;
     real_T beta_Value_e;
     real_T beta_Value_b;
-    real_T beta_Value_m;
+    real_T beta_Value_i;
     real_T beta_Value_d;
     real_T Gain_Gain_b;
     real_T Gain5_Gain;
-    real_T Gain1_Gain_ni;
+    real_T Gain1_Gain_n;
     real_T Gain_Gain_k;
     real_T Gain1_Gain_l;
     real_T Constant_Value;
@@ -225,7 +222,7 @@ class AutopilotLawsModelClass {
     real_T Gain_Gain_de;
     real_T Gainpk_Gain;
     real_T Gain3_Gain_a;
-    real_T Gain_Gain_nz;
+    real_T Gain_Gain_n;
     real_T Constant1_Value_b;
     real_T Saturation_UpperSat_p;
     real_T Saturation_LowerSat_g;
@@ -260,6 +257,8 @@ class AutopilotLawsModelClass {
     real_T Gain_Gain_ac;
     real_T Constant3_Value_n;
     real_T Gain_Gain_e;
+    real_T tau_Value;
+    real_T zeta_Value;
     real_T Gain3_Gain_i;
     real_T ROLLLIM1_tableData[5];
     real_T ROLLLIM1_bp01Data[5];
@@ -300,7 +299,7 @@ class AutopilotLawsModelClass {
     real_T Saturation_UpperSat_k;
     real_T Saturation_LowerSat_l;
     real_T Gain_Gain_l;
-    real_T Gain_Gain_c;
+    real_T Gain_Gain_c3;
     real_T Gain1_Gain_b2;
     real_T Gain_Gain_p2;
     real_T Gain_Gain_n1;
